@@ -1,0 +1,22 @@
+/* @import "tailwindcss";
+@config "./tailwind.config.js"; */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu+Mono&family=Varela+Round&display=swap');
+@config "../tailwind.config.js";
+@import "tailwindcss";
+
+*{
+    font-family: Outfit;
+}
+
+.active hr{
+    @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+@media (max-width: 740px){
+    .active p{
+        @apply text-white bg-[#5f6FFF]
+    }
+}
