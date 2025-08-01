@@ -34,9 +34,7 @@ EasyClinic features **three levels of secure access**:
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (with Mongoose)
 - **Authentication:** JWT (JSON Web Token)
-- **Payment Integration:** Online payment gateway (Stripe)
-- **Other Tools:** Axios, dotenv, bcrypt, nodemailer
-
+- **Payment Integration:** Online payment gateway (RazorPay)
 ---
 
 ## 🚀 Features
