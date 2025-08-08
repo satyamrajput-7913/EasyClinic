@@ -31,7 +31,7 @@ const Appointment = () => {
     currentDate.setDate(today.getDate() + i);
 
     let startHour = 10;
-    let endHour = 20; // ✅ 7 PM
+    let endHour = 20; // ✅ 8 PM
 
     if (i === 0) {
       let now = new Date();
@@ -219,5 +219,6 @@ const bookAppointment = async () => {
     </div>
   )
 }
+
 
 export default Appointment
