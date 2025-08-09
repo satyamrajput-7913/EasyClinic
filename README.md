@@ -2,7 +2,7 @@
 
 **EasyClinic** is a full-stack doctor appointment booking system designed for use by individual doctors or hospitals. It features **role-based access**, allowing patients, doctors, and administrators to interact with the system according to their permissions.
 
-This application is perfect for real-world deployment or as a portfolio/college project, demonstrating modern web development with JWT authentication, MongoDB, Express, and React.
+This application is perfect for real-world deployment demonstrating modern web development with JWT authentication, MongoDB, Express, and React.
 
 ---
 
@@ -35,6 +35,7 @@ EasyClinic features **three levels of secure access**:
 - **Database:** MongoDB (with Mongoose)
 - **Authentication:** JWT (JSON Web Token)
 - **Payment Integration:** Online payment gateway (RazorPay)
+- **Cloudinary:** Online Media Storage Service
 ---
 
 ## 🚀 Features
